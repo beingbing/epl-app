@@ -11,7 +11,8 @@
         $stateProvider
             .state('home', {
                 url: '/',
-                templateUrl: 'templates/home.template.html'
+                templateUrl: 'templates/home.template.html',
+                controller: 'homeController as homeCtrl'
             })
             .state('matches', {
                 url: '/matches',

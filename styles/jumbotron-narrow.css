@@ -2,6 +2,9 @@
 body {
   padding-top: 20px;
   padding-bottom: 20px;
+  background:url('https://s-media-cache-ak0.pinimg.com/originals/dc/22/04/dc22041546f7ebf5dc53ddb804786f71.jpg');
+  background-repeat:none;
+  background-size:cover;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */

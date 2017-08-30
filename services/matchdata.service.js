@@ -9,10 +9,14 @@
         var service = this;
         service.singleMatchData = {};
 
+        service.setYear = function(year){
+            service.year = year;
+        }
+
         service.getAllMatchesList = function() {
             return $http({
                 method: "GET",
-                url: (ApiBasePath + '/2016-17/en.1.json')
+                url: (ApiBasePath + '/' + service.year + '/en.1.json')
             }).then(function(response) {
                 return response.data;
             });
